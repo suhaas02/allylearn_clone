@@ -1,0 +1,62 @@
+
+    * {
+      color: #fafafa;
+    }
+
+    body {
+
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      background: linear-gradient(rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.8)), url("https://images.unsplash.com/photo-1462536943532-57a629f6cc60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80");
+      background-size: cover;
+      background-position: center;
+    }
+
+    h2 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 800;
+    }
+
+    p {
+      color: #dedede;
+    }
+
+    main {
+      flex: 1 0 auto;
+      display: flex;
+      align-items: center;
+    }
+
+    .brand-logo {
+      font-family: 'Lobster', cursive;
+    }
+
+    .playStoreLogo {
+      height: 4rem;
+      object-fit: cover;
+    }
+
+    a {
+      margin-right: 1rem;
+    }
+
+    .bot {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .btn {
+      /* font-size: small; */
+      font-weight: 600;
+      text-transform: none;
+    }
+
+    @media only screen and (max-width: 420px) {
+      h2 {
+        font-size: 3rem;
+      }
+    }
+  
